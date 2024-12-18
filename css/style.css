@@ -1,0 +1,1741 @@
+/* Table of Style Content */
+
+/* 1. Initiation */
+/* 2. Navigation */
+/* 3. Hero */
+/* 4. Discount Section */
+/* 5. Best Seller Section */
+/* 6. Store Section */
+/* 7. Contact Section */
+/* 8. About-Us Section */
+/* 9. Footer Section */
+/* 10. Text Decoration */
+/* 11. Font Family */
+/* 12. Media Querry (Phone) */
+/* 13. Media Querry (Tablet) */
+/* 14. Media Querry (Wider than Desktop) */
+
+
+/* 1. Initiation */
+/* Initiation default design to 0 especially for margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0 !important;
+}
+
+/* 2. Navigation */
+/* This section made for Saffcoz navbar design on website */
+.navigation {
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    z-index: 50 !important;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.red-block {
+    display: inline;
+    position: absolute;
+    width: 4rem;
+    height: 0.5rem;
+    background-color: #C42847;
+}
+
+.rope {
+    z-index: 49 !important;
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navigation .nav-link-container {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+/* Logo */
+.nav-logo {
+    width: 8rem;
+    aspect-ratio: 4/1;
+}
+
+/* Navigation links */
+.nav-link {
+    margin: 0 1rem 0 1rem;
+    color: #C42847;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+
+.hamburger .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #C42847;
+    transition: all 0.3s ease;
+}
+
+/* Mobile menu */
+.nav-link-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/* 3. Hero*/
+/* This section is made only for hero section design */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    background-color: #C42847;
+}
+
+.hero-content-container{
+    width: 60%;
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content{
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content h2{
+    font-size: 2rem;
+}
+
+.hero-content p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.hero-boxes-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.hero-boxes{
+    border: 1px white;
+    border-style: solid;
+    width: 20%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-boxes-r{
+    border: 1px white;
+    border-style: solid;
+    width: 20%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-boxes-l{
+    border: 1px white;
+    border-style: solid;
+    width: 20%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-boxes img, .hero-boxes-l img, .hero-boxes-r img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.hero-discover{
+    width: 15rem;
+    height: 5rem;
+    color: #C42847;
+    background-color: white;
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    text-decoration: none;
+}
+
+.hero-showcase{
+    width: 40%;
+    background-image: url('../images/red-cherry.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 4. Discount Section */
+/* This section contains style of discount section on home page */
+.discount-section{
+    min-height: 100vh;
+    display: flex;
+    background-color: white;
+    border-bottom: 0.1rem black solid;
+}
+
+.discount-content-container{
+    width: 60%;
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discount-content{
+    color: black;
+}
+
+.discount-content h1{
+    font-size: 8rem;
+    color: #EFA243;
+    margin-bottom: 2rem;
+}
+
+.discount-content h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.discount-content p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.discount-content .left-align{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.discount-order-now{
+    width: 15rem;
+    height: 5rem;
+    color: white;
+    background-color: #C42847;
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    text-decoration: none;
+}
+
+.discount-showcase{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-showcase img{
+    width: 80%;
+}
+
+/* 5. Best Seller Section */
+/* This section contains style for best seller section on home page */
+.best-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 0 4rem 0 4rem;
+}
+
+.best-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.best-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.best-container p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.best-showcase{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.showcase-card{
+    position: relative;
+    width: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C42847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1.2;
+}
+
+.showcase-card img{
+    width: 80%;
+}
+
+.price-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: auto;
+    background-color: #C42847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.price {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* 6. Store Section */
+.store-section{
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem 4rem;
+}
+
+.map-container{
+    display: flex;
+    height: 40vh;
+    margin-bottom: 8rem;
+}
+
+.map-header{
+    width: 40%;
+    display: flex;
+}
+
+.map-header h1{
+    width: 60%;
+    font-size: 4rem;
+}
+
+.map{
+    width: 60%;
+}
+
+.google-map{
+    width: 100%;
+    height: 100%;
+    z-index: 4 !important;
+}
+
+.location-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.location{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.location h1{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.location p{
+    margin-bottom: 1rem;
+    color: #C42847;
+}
+
+.location a{
+    margin-bottom: 1rem;
+    color: #C42847;
+    text-decoration: none;
+}
+
+/* 7. Contact Section */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 0 4rem;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-card{
+    width: 40%;
+    color: white;
+    background-color: black;
+    margin-right: 2rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.front-text h1{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.call-center-text{
+    margin-bottom: 2rem;
+}
+
+.call-center-text h3, .email-text h3{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.call-center-text a, .email-text a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-form{
+    width: 60%;
+    background-color: #C42847;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form input, .contact-form form select{
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: #C42847;
+    border-width: 2px;
+    border-bottom: white;
+    padding-left: 1rem;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.contact-form form input:focus, .contact-form form select:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+}   
+
+.contact-form-flex{
+    display: flex;
+}
+
+#phone{
+    margin-left: 2rem;
+}
+
+.contact-form-flex input{
+    width: 50%;
+}
+
+#gender{
+    width: 48%;
+}
+
+.contact-form-subscribe{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:1rem 0;
+}
+
+.contact-form-subscribe input{
+    width: 1rem;
+    aspect-ratio: 1/1;
+    margin:0rem 1rem 0rem 0rem !important;
+}
+
+.contact-form form button{
+    width: 20%;
+    padding: 1rem;
+    align-self: end;
+    background-color: #C42847;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+::placeholder{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.contact-form-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form select{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+
+}
+
+.contact-form textarea{
+    background-color: #C42847;
+    padding: 1rem;
+    border-color: white;
+    margin-top: 1rem;
+}
+
+.contact-form textarea:focus{
+    border-color: white;
+    outline: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+/* 8. About-Us Section */
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/red-cherry.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.about-header-container{
+    height: 87vh;
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header-container h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.about-header-container p{
+    font-size: 1rem;
+    text-align: center;
+    width: 75%;
+}
+
+.about-story-container{
+    display: flex;
+    justify-content: space-between;
+    padding:12rem 4rem 12rem 4rem;
+    z-index: 6 !important;
+}
+
+.about-story-container img{
+    width: 40%;
+    aspect-ratio: 1/1;
+    margin-right: 2rem;
+}
+
+.story-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.gradient-red-background{
+    height: 120vh;
+    width: 100%;
+    z-index: 5 !important;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(to bottom, transparent, #5E1322, #C42847);
+}
+
+.about-paralax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    background-image: url('../images/parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-paralax p{
+    width: 75%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.signature-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.signature-container{
+    padding: 4rem 4rem 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.signature-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.signature-container p{
+    font-size: 1rem;
+}
+
+.scents-container{
+    margin: 4rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scents-card{
+    width: 30%;
+    margin-bottom: 4rem;
+}
+
+.scents-card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 2rem;
+}
+
+.scents-card h2{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.signature-container a{
+    padding: 1.5rem;
+    background-color: #C42847;
+    text-decoration: none;
+    color: white;
+    width: 15%;
+    text-align: center;
+    place-self: center;
+}
+
+/* 9. Footer Section */
+/* This section contains style for footer section */
+.footer-section{
+    background-color: #C42847;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    color: white;
+}
+
+.footer-section img{
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item div{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.footer-item div p, .footer-item div a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* 10. Text Decoration */
+/* This section contains for font decoration of Saffcoz website, mostly for interactive design */
+.underline{
+    text-decoration: underline !important;
+}
+
+.bold{
+    font-weight: bold !important;
+}
+
+.red-text{
+    color: #C42847;
+}
+
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(to right, #FFA726, #FFFFFF); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 11. Font Family */
+/* This section contains font family of SaffcoZ website*/
+
+/* Headings */
+
+.playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playfair-display-regular-italic {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.playfair-display-medium{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.playfair-display-medium-italic{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.playfair-display-semibold{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.playfair-display-semibold-italic{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.playfair-display-bold{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.playfair-display-bold-italic{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.playfair-display-extrabold{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.playfair-display-extrabold-italic{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Normal Text */
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* 13. Media Querry (Phone) */
+/* This section contains media querry code for phone size */
+@media (max-width: 640px) {
+    .nav-content {
+        padding: 1rem 2rem;
+        position: relative;
+    }
+
+    .nav-logo {
+        width: 6rem;
+    }
+
+    .navigation .nav-link-container {
+        display: none;
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .nav-link {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+    }
+
+    .hamburger {
+        display: flex; 
+    }
+
+    .rope img {
+        width: 2rem;
+        height: 12rem;
+    }
+
+    /* Show menu when toggled */
+    .nav-link-container.active {
+        display: flex; 
+    }
+
+    /* Styling for when the hamburger becomes an 'X' */
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(20.8deg);
+        top: 10px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        transform: rotate(-20.8deg);
+        top: -10px;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        opacity: 0; 
+    }
+
+    /* Hero */
+    .hero{
+        min-height: fit-content;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    
+    .hero-content-container{
+        width: 100%;
+        padding: 4rem 0;
+    }
+
+    .hero-content{
+        padding: 1rem 2rem;
+    }
+
+    .hero-content h2{
+        font-size: 1.5rem;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+    }
+
+    .hero-content p{
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .hero-showcase{
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* Discount */
+    .discount-section{  
+        min-height: 100vh;
+        padding: 0;
+    }
+    
+    .discount-content-container{
+        min-height: fit-content;
+        width: 100%;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .discount-content h1{
+        font-size: 6rem;
+        color: #EFA243;
+        margin-bottom: 2rem;
+    }
+    
+    .discount-content h2{
+        font-size: 2.25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .discount-content p{
+        font-size: 0.75rem;
+        width: 100%;
+    }
+    
+    .discount-content .left-align{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .left-align h2{
+        margin-bottom: 1rem;
+    }
+    
+    .discount-order-now{
+        width: 15rem;
+        height: 5rem;
+        color: white;
+        background-color: #C42847;
+        padding: 1rem 3.5rem 1rem 3.5rem;
+        text-decoration: none;
+    }
+    
+    .discount-showcase{
+        display: none;
+    }
+
+    /* Best Section */
+    .best-section{
+        min-height: 60vh;
+        padding: 1rem 2rem;
+    }
+    
+    .best-container{
+        width: 100% ;
+    }
+    
+    .best-container h1{
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .best-container p{
+        font-size: 0.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .best-showcase{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    
+    .showcase-card{
+        position: relative;
+        width: 30%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #C42847;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1.2;
+    }
+    
+    .showcase-card img{
+        width: 80%;
+    }
+    
+    .price-container {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: auto;
+        background-color: #C42847;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    
+    .price {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    .footer-section{
+        padding: 1rem 2rem;
+    }
+    
+    .footer-section img{
+        width: 8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-item{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .footer-item div{
+        width: 100%;
+        font-size: 0.75rem;
+    }
+    
+    .footer-item div p, .footer-item div a{
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* Perfume */
+    .price-container {
+        padding: 0.5rem 1rem;
+    }
+    
+    .price {
+        color: white;
+        font-size: 0.9rem;
+    }
+
+    /* 6. Store Section */
+    .store-section{
+        min-height: 100vh;
+        padding: 4rem 2rem;
+    }
+
+    .map-container{
+        flex-direction: column;
+        margin-bottom: 4rem;
+        height: 80vh;
+    }
+
+    .map-header{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .map-header h1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .google-map{
+        width: 100%;
+        height: 12rem;
+        z-index: 4 !important;
+    }
+
+    .location-container{
+        flex-direction: column;
+    }
+
+    .location{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location h1{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }   
+
+    .location p{
+        margin-bottom: 1rem;
+        color: #C42847;
+    }
+
+    .location a{
+        margin-bottom: 1rem;
+        color: #C42847;
+        text-decoration: none;
+    }
+
+    /* 8. About-Us Section */
+    .about-header-container{
+        padding: 1rem 2rem;
+    }
+
+    .about-header-container h1{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .about-header-container p{
+        font-size: 0.75rem;
+    }
+
+    .about-story-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem 2rem;
+    }
+
+    .about-story-container img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        margin-right: 0;
+    }
+
+    .story-content{
+        width: 60%;
+        margin-top: 2rem;
+    }
+
+    .story-content h2{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .story-content p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .about-paralax p{
+        width: 75%;
+        color: white;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    .signature-container{
+        padding: 2rem 2rem 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signature-container h1{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .signature-container p{
+        font-size: 0.75rem;
+    }
+
+    .scents-container{
+        margin: 2rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .scents-card{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .scents-card img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        margin-bottom: 2rem;
+    }
+
+    .scents-card h2{
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .signature-container a{
+        padding: 1.5rem;
+        background-color: #C42847;
+        text-decoration: none;
+        color: white;
+        width: 50%;
+        font-size: 0.75rem;
+        text-align: center;
+        place-self: center;
+    }
+
+    /* 7. Contact Section */
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        padding: 0 2rem;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .contact-card{
+        color: white;
+        background-color: black;
+        width: auto;
+        padding: 2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .front-text h1{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .front-text p{
+        font-size: 0.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .call-center-text{
+        margin-bottom: 1rem;
+    }
+
+    .call-center-text h3, .email-text h3{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-form{
+        width: auto;
+        padding: 2rem;
+    }
+
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form form input, .contact-form form select{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        background-color: #C42847;
+        border-width: 2px;
+        border-bottom: white;
+        padding-left: 1rem;
+        color: white;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .contact-form form input:focus, .contact-form form select:focus {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        font-style: normal;
+    }   
+
+    .contact-form-flex{
+        flex-direction: column;
+    }
+
+    #phone{
+        margin-left: 0;
+    }
+
+    .contact-form-flex input{
+        width: auto;
+    }
+
+    #gender{
+        width: auto;
+    }
+
+    .contact-form-subscribe{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .contact-form-subscribe input{
+        width: 1rem;
+        aspect-ratio: 1/1;
+        margin:0rem 1rem 0rem 0rem !important;
+    }
+
+    .contact-form form button{
+        width: 50%;
+        padding: 1rem;
+        align-self: end;
+        background-color: #C42847;
+        border-color: white;
+        border-radius: 20px;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+/* 14. Media Querry (Tablet) */
+/* This section contains media querry code for tablet size */
+@media (min-width: 640px) and (max-width: 1024px) {
+    /* Navigation */
+    .nav-content{
+        padding: 2rem 4rem;
+    }
+
+    .nav-logo{
+        width: 8rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    /* Discount */
+    .discount-section{
+        min-height: 100vh;
+        padding: 0;
+    }
+    
+    .discount-content-container{
+        width: 100%;
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .discount-content h1{
+        font-size: 6rem;
+        color: #EFA243;
+        margin-bottom: 2rem;
+    }
+    
+    .discount-content h2{
+        font-size: 2.25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .discount-content p{
+        font-size: 0.75rem;
+        width: 100%;
+    }
+    
+    .discount-content .left-align{
+        width: 100%;
+    }
+    
+    .discount-order-now{
+        width: 15rem;
+        height: 5rem;
+        color: white;
+        background-color: #C42847;
+        padding: 1rem 3.5rem 1rem 3.5rem;
+        text-decoration: none;
+    }
+    
+    .discount-showcase{
+        display: none;
+    }
+
+    /* Perfume */
+    .price-container {
+        padding: 1rem 2rem;
+    }
+    
+    .price {
+        color: white;
+        font-size: 0.9rem;
+    }
+
+    /* 6. Store Section */
+    .map-container{
+        flex-direction: column;
+        margin-bottom: 4rem;
+        height: 80vh;
+    }
+
+    .map-header{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .map-header h1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .google-map{
+        width: 100%;
+        height: 20rem;
+        z-index: 4 !important;
+    }
+
+    .location-container{
+        flex-direction: column;
+    }
+
+    .location{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location h1{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }   
+
+    .location p{
+        margin-bottom: 1rem;
+        color: #C42847;
+    }
+
+    .location a{
+        margin-bottom: 1rem;
+        color: #C42847;
+        text-decoration: none;
+    }
+
+    /* 7. Contact Section */
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        padding: 0 4rem;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .contact-card{
+        color: white;
+        background-color: black;
+        width: auto;
+        padding: 2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .front-text h1{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .front-text p{
+        font-size: 0.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .call-center-text{
+        margin-bottom: 1rem;
+    }
+
+    .call-center-text h3, .email-text h3{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-form{
+        width: auto;
+        padding: 2rem;
+    }
+
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form form input, .contact-form form select{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        background-color: #C42847;
+        border-width: 2px;
+        border-bottom: white;
+        padding-left: 1rem;
+        color: white;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .contact-form form input:focus, .contact-form form select:focus {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        font-style: normal;
+    }   
+
+    .contact-form-flex{
+        flex-direction: column;
+    }
+
+    #phone{
+        margin-left: 0;
+    }
+
+    .contact-form-flex input{
+        width: auto;
+    }
+
+    #gender{
+        width: auto;
+    }
+
+    .contact-form-subscribe{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .contact-form-subscribe input{
+        width: 1rem;
+        aspect-ratio: 1/1;
+        margin:0rem 1rem 0rem 0rem !important;
+    }
+
+    .contact-form form button{
+        width: 30%;
+        padding: 1rem;
+        align-self: end;
+        background-color: #C42847;
+        border-color: white;
+        border-radius: 20px;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 750px;
+    display: flex;
+}
+
+.perfume-detail{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover, .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalImage {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+}
+
+#modalTypes, #modalDescription{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+#modalSize{
+    margin: 1rem 0;
+    border: 1px solid black;
+    width: auto;
+    padding: 1rem;
+    width: fit-content;
+}
+
+#modalPrice {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.error {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #C42847;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 9999;
+    animation: fadeIn 0.5s ease-out;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./images/SaffCoZ-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Product | SaffcoZ a sweet and luxurious fragrances</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation lato-regular">
+        <div class="nav-content">
+            <a href="#"><img class="nav-logo" src="../images/SaffCoZ-onwhite.png" alt="Logo"></a>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="nav-link-container">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link bold underline" href="../pages/product.html">Perfumes</a>
+                <a class="nav-link" href="../pages/about-us.html">About-Us</a>
+                <a class="nav-link" href="../pages/store.html">Offline Store</a>
+                <a class="nav-link" href="../pages/contact-us.html">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <a href="#" class="rope"><img src="../images/rope.png" alt=""></a>
+    <!-- Perfume Section -->
+    <section class="best-section">
+        <div class="best-container">
+            <h1 class="playfair-display-bold">Perfume and Fragrances</h1>
+            <p class="lato-regular">A fragrance for every moment, every mood, and every person. From sweet and fruity to bold and musky, each SaffCoz perfume is a unique composition, crafted with the finest ingredients to leave a lasting impression. Explore our range and find the scent that speaks to you.</p>
+            <div class="best-showcase">
+                <button id="card-1" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 300</h3>
+                    </div>
+                    <img src="../images/perfume.png" alt="">
+                </button>
+                <button id="card-2" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 350</h3>
+                    </div>
+                    <img src="../images/perfume-2.png" alt="">
+                </button>
+                <button id="card-3" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 280</h3>
+                    </div>
+                    <img src="../images/perfume-3.png" alt="">
+                </button>
+            </div>
+            <div class="best-showcase">
+                <button id="card-4" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 280</h3>
+                    </div>
+                    <img src="../images/perfume-4.png" alt="">
+                </button>
+                <button id="card-5" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 500</h3>
+                    </div>
+                    <img src="../images/perfume-5.png" alt="">
+                </button>
+                <button id="card-6" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 380</h3>
+                    </div>
+                    <img src="../images/perfume-6.png" alt="">
+                </button>
+            </div>
+            <div class="best-showcase">
+                <button id="card-7" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 250</h3>
+                    </div>
+                    <img src="../images/perfume-7.png" alt="">
+                </button>
+                <button id="card-8" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 350</h3>
+                    </div>
+                    <img src="../images/perfume-8.png" alt="">
+                </button>
+                <button id="card-9" class="showcase-card">
+                    <div class="price-container">
+                        <h3 class="price lato-bold">$ 300</h3>
+                    </div>
+                    <img src="../images/perfume-9.png" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-section lato-regular">
+        <img src="../images/SaffCoZ-onblack.png" alt="">
+        <div class="footer-item">
+            <div class="footer-item-1">
+                <p><span class="bold">Simple. Timeless. Unforgettable.</span> <br>
+                    SaffCoz perfumes capture the essence of luxury in every scent. Crafted for those who appreciate elegance, lasting impressions, and the beauty of simplicity.</p>
+                <p class="copyright">Copyright 2024 by <span class="bold">SaffcoZ</span></p>
+            </div>
+            <div class="footer-item-2">
+                <p>Jl. Raya Kb. Jeruk No.27, RT.1/RW.9, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530</p>
+                <a href="">+621212341234</a>
+            </div>
+            <div class="footer-item-3">
+                <a class="bold" href="../index.html">HOME</a>
+                <a class="bold" href="./product.html">PERFUMES</a>
+                <a class="bold" href="./about-us.html">ABOUT US</a>
+                <a class="bold" href="./store.html">OFFLINE STORE</a>
+                <a class="bold" href="./contact-us.html">CONTACT US</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal Structure -->
+    <div id="productModal" class="modal">
+        <div class="modal-content lato-regular">
+            <img src="" id="modalImage" alt="Product Image">
+            <div class="perfume-detail">
+                <h2 id="modalPerfume"></h2>
+                <p id="modalTypes"></p>
+                <h3 id="modalPrice"></h3>
+                <p id="modalDescription"></p>
+                <p>Top Notes: <span id="modalTop"></span></p>
+                <p>Heart Notes: <span id="modalHeart"></span></p>
+                <p>Base Notes: <span id="modalBase"></span></p>
+                <p id="modalSize"></p>
+            </div>
+            <span class="close-btn">&times;</span>
+        </div>
+    </div>
+    <script src="../js/nav.js"></script>
+    <script src="../js/modal.js"></script>
+</body>
+</html>

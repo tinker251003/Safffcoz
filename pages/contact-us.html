@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./images/SaffCoZ-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Contact Us | SaffcoZ a sweet and luxurious fragrances</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation lato-regular">
+        <div class="nav-content">
+            <a href="#"><img class="nav-logo" src="../images/SaffCoZ-onwhite.png" alt="Logo"></a>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="nav-link-container">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../pages/product.html">Perfumes</a>
+                <a class="nav-link" href="../pages/about-us.html">About-Us</a>
+                <a class="nav-link" href="../pages/store.html">Offline Store</a>
+                <a class="nav-link bold underline" href="../pages/contact-us.html">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <a href="#" class="rope"><img src="../images/rope.png" alt=""></a>
+    <!-- Contact -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="front-text">
+                    <h1 class="playfair-display-bold gradient-text">Please complete the form to submit your inquiry</h1>
+                    <p class="lato-regular">We are always ready to help you and answer your questions.</p>
+                </div>
+                <div class="back-text lato-regular">
+                    <div class="call-center-text">
+                        <h3>Call Center</h3>
+                        <a href="">+621212341234</a>
+                    </div>
+                    <div class="email-text">
+                        <h3>Email</h3>
+                        <a href="mailto:hello@saffcoz.id">hello@saffcoz.id</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form lato-regular">
+                <form id="contactForm" onsubmit="return validateForm(event)">
+                    <input type="text" id="fullName" placeholder="Full Name">
+                    <div class="contact-form-flex">
+                        <input name="email" id="email" type="email" placeholder="Email">
+                        <input name="phone" id="phone" type="number" placeholder="Phone Number">
+                    </div>
+                    <select name="gender" id="gender">
+                        <option value="">Select Gender</option>
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+                        <option value="Rather not say">Rather not say</option>
+                    </select>
+                    <div class="contact-form-column">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="contact-form-subscribe">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">I want to receive the latest news, exclusive offers, and new product releases</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="../js/nav.js"></script>
+    <script src="../js/form.js"></script>
+</body>
+</html>
